@@ -4,9 +4,15 @@
     height: 400px;
     margin: auto;
     margin-top: 100px;
-    text-align: center;
-    /* clip-path: polygon(51% 78%, 66% 66%, 100% 66%); */
     background: linear-gradient(to bottom, orange 80% , rgb(240, 69, 69) 20%);
+}
+
+.word{
+    text-align: center;
+    color: aliceblue;
+    position: relative; 
+    top: 60px;
+
 }
 .smile{
     border-radius: 40px;
@@ -43,5 +49,16 @@
     margin-top: 10px;
     margin-right: 20px;
 
+}
+
+#triangle{
+    position: absolute;
+    left: 41%;
+    top: 48%;
+    clip-path: polygon(0 60%, 51% 87%, 100% 60%);
+    background-color:  orange;
+    width: 170px;
+    height : 119px;
+  
 }
 
